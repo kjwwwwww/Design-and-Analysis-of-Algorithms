@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\算法第一次作业">
+      <UniqueIdentifier>{90e88867-fbbd-4fcf-8176-6ac8d93fb286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构">
+      <UniqueIdentifier>{68e3fadf-63dc-40de-a1ee-735a3dc8fcd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法作业递推">
+      <UniqueIdentifier>{f2ea63eb-13d8-40a6-9258-7cc2c83bb943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法作业递归">
+      <UniqueIdentifier>{edb00041-ebec-4b7e-a2b8-5425aa2bbb3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法作业枚举">
+      <UniqueIdentifier>{317bcaae-0028-49e1-9e06-e9447c619d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法作业搜索">
+      <UniqueIdentifier>{b078142b-baf7-4e9d-928f-f6aae5c05b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法作业贪心">
+      <UniqueIdentifier>{2ad05552-143e-4536-82a0-08f8441dcddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法作业图论">
+      <UniqueIdentifier>{c68c258a-d90e-4228-a729-d0773b9835db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法作业分治">
+      <UniqueIdentifier>{6ab661bd-0dd8-41a2-a093-b11082ef55cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法作业动态规划">
+      <UniqueIdentifier>{856cc02c-91e9-4897-afa5-682f112299f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="B 平均绩点.cpp">
+      <Filter>源文件\算法第一次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="归并法.cpp">
+      <Filter>源文件\算法第一次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="C 求数列（sulie).cpp">
+      <Filter>源文件\算法第一次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="Hash表.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="HuffmanTree.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="IP地址类.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="MyArray类的运算符重载.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString类的运算符重载.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="按照先序遍历创建二叉树并输出根到叶节点的所有路径.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="堆栈.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="队列.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉排序树.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉平衡树.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树  先序中序确定一棵树 .cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="继承与虚函数.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="矩阵类matrix.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="邻接表 有向图.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="链表的操作.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="邻接矩阵 BFS.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="扑克牌 花色大小插入插回.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="顺序表+链表.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="自定义字符串类MyString.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="D 幂的后三位相同.cpp">
+      <Filter>源文件\算法第一次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="E 猴子吃桃.cpp">
+      <Filter>源文件\算法第一次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="J 矩阵相乘.cpp">
+      <Filter>源文件\算法第一次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="L 上古计算机.cpp">
+      <Filter>源文件\算法第一次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="I 高精度求积.cpp">
+      <Filter>源文件\算法第一次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="K 字符串相加.cpp">
+      <Filter>源文件\算法第一次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="G A除B(高精度).cpp">
+      <Filter>源文件\算法第一次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="H 高精度n的累加.cpp">
+      <Filter>源文件\算法第一次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="F N的阶乘.cpp">
+      <Filter>源文件\算法第一次作业</Filter>
+    </ClCompile>
+    <ClCompile Include="火柴棒等式.cpp">
+      <Filter>源文件\算法作业枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="换钞票.cpp">
+      <Filter>源文件\算法作业枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="一元三次方程.cpp">
+      <Filter>源文件\算法作业枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="数的划分.cpp">
+      <Filter>源文件\算法作业枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="油桶问题.cpp">
+      <Filter>源文件\算法作业枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="ariprog等差数列.cpp">
+      <Filter>源文件\算法作业枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="时钟问题.cpp">
+      <Filter>源文件\算法作业枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="排队.cpp">
+      <Filter>源文件\算法作业枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="A 数字三角形.cpp">
+      <Filter>源文件\算法作业递推</Filter>
+    </ClCompile>
+    <ClCompile Include="E 骨牌铺法.cpp">
+      <Filter>源文件\算法作业递推</Filter>
+    </ClCompile>
+    <ClCompile Include="J 兔子繁殖.cpp">
+      <Filter>源文件\算法作业递推</Filter>
+    </ClCompile>
+    <ClCompile Include="M 过河卒.cpp">
+      <Filter>源文件\算法作业递推</Filter>
+    </ClCompile>
+    <ClCompile Include="C 贴瓷砖.cpp">
+      <Filter>源文件\算法作业递推</Filter>
+    </ClCompile>
+    <ClCompile Include="D 不容易.cpp">
+      <Filter>源文件\算法作业递推</Filter>
+    </ClCompile>
+    <ClCompile Include="F 小明的烦恼.cpp">
+      <Filter>源文件\算法作业递推</Filter>
+    </ClCompile>
+    <ClCompile Include="G 东东爬楼梯.cpp">
+      <Filter>源文件\算法作业递推</Filter>
+    </ClCompile>
+    <ClCompile Include="H 平面分割问题.cpp">
+      <Filter>源文件\算法作业递推</Filter>
+    </ClCompile>
+    <ClCompile Include="I 走楼梯.cpp">
+      <Filter>源文件\算法作业递推</Filter>
+    </ClCompile>
+    <ClCompile Include="反转棋盘.cpp">
+      <Filter>源文件\算法作业枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="n的阶乘.cpp">
+      <Filter>源文件\算法作业递归</Filter>
+    </ClCompile>
+    <ClCompile Include="n的倒序数.cpp">
+      <Filter>源文件\算法作业递归</Filter>
+    </ClCompile>
+    <ClCompile Include="十进制转八进制.cpp">
+      <Filter>源文件\算法作业递归</Filter>
+    </ClCompile>
+    <ClCompile Include="地盘划分.cpp">
+      <Filter>源文件\算法作业递归</Filter>
+    </ClCompile>
+    <ClCompile Include="传球游戏.cpp">
+      <Filter>源文件\算法作业递归</Filter>
+    </ClCompile>
+    <ClCompile Include="油桶问题1.cpp">
+      <Filter>源文件\算法作业递归</Filter>
+    </ClCompile>
+    <ClCompile Include="B 统计方案.cpp">
+      <Filter>源文件\算法作业递推</Filter>
+    </ClCompile>
+    <ClCompile Include="K 平面分割.cpp">
+      <Filter>源文件\算法作业递推</Filter>
+    </ClCompile>
+    <ClCompile Include="N 极值问题.cpp">
+      <Filter>源文件\算法作业递推</Filter>
+    </ClCompile>
+    <ClCompile Include="L蜜蜂路线.cpp">
+      <Filter>源文件\算法作业递推</Filter>
+    </ClCompile>
+    <ClCompile Include="D 棋子移动.cpp">
+      <Filter>源文件\算法作业递归</Filter>
+    </ClCompile>
+    <ClCompile Include="楼梯问题.cpp">
+      <Filter>源文件\算法作业递归</Filter>
+    </ClCompile>
+    <ClCompile Include="素数环.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="八皇后.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="马的遍历.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="draftpaper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="分工问题.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="选书.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="探险家的数字.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="探险家的智慧.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="跳马问题.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="马的遍历 徐晶版.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="有重复元素的排列问题.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="子集和问题 徐晶非递归.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="装载问题.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="堆积木.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="探险家的数字 徐晶版.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="子集和问题.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="八数码.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="看电视.cpp">
+      <Filter>源文件\算法作业贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="红与黑.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="棋盘问题.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="Oil Deposit.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="胜利大逃亡.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="马的移动.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="The song of Ice and Fire.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="摧毁巴士站.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="古希腊之争.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="侦察.cpp">
+      <Filter>源文件\算法作业搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="排队打水.cpp">
+      <Filter>源文件\算法作业贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="区间合并.cpp">
+      <Filter>源文件\算法作业贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="校外的树.cpp">
+      <Filter>源文件\算法作业贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="仓库选址.cpp">
+      <Filter>源文件\算法作业贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="贪心背包.cpp">
+      <Filter>源文件\算法作业贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="合并果子.cpp">
+      <Filter>源文件\算法作业贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="出租车费.cpp">
+      <Filter>源文件\算法作业贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="均分纸牌.cpp">
+      <Filter>源文件\算法作业贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="删数问题.cpp">
+      <Filter>源文件\算法作业贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="喷水装置.cpp">
+      <Filter>源文件\算法作业贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="种树.cpp">
+      <Filter>源文件\算法作业贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="细胞深度优先.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="细胞广度优先.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="骑马修栅栏.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="最短路径%28弗洛伊德%29.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="信使.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="迪杰斯特拉.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="美元汇率.cpp">
+      <Filter>源文件\算法作业贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="自底向上哈夫曼编码.cpp">
+      <Filter>源文件\算法作业贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="图的连通性.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="格子游戏.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="亲戚.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="局域网.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="繁忙的都市.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="自顶向下的赫夫曼编码.cpp">
+      <Filter>源文件\算法作业贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="黑社会团伙.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="打击罪犯.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="家谱.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="哈夫曼树.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="哈夫曼编码.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="逆序对个数.cpp">
+      <Filter>源文件\算法作业分治</Filter>
+    </ClCompile>
+    <ClCompile Include="折半查找.cpp">
+      <Filter>源文件\算法作业分治</Filter>
+    </ClCompile>
+    <ClCompile Include="一元三次方程的解.cpp">
+      <Filter>源文件\算法作业分治</Filter>
+    </ClCompile>
+    <ClCompile Include="循环比赛日程表.cpp">
+      <Filter>源文件\算法作业分治</Filter>
+    </ClCompile>
+    <ClCompile Include="黑白棋子的移动.cpp">
+      <Filter>源文件\算法作业分治</Filter>
+    </ClCompile>
+    <ClCompile Include="深度优先搜索.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="广度优先搜索.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="无向图的连通分量和生成树.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="铲雪车snow.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="最优乘车.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="热浪.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="去旅行.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="牛的旅行.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="Sweet Butter 香甜的黄油.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="搭配购买.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="最小生成树.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="链接格点.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="高精度乘法.cpp">
+      <Filter>源文件\算法作业分治</Filter>
+    </ClCompile>
+    <ClCompile Include="矩阵乘法.cpp">
+      <Filter>源文件\算法作业分治</Filter>
+    </ClCompile>
+    <ClCompile Include="第k小的数.cpp">
+      <Filter>源文件\算法作业分治</Filter>
+    </ClCompile>
+    <ClCompile Include="最近点对问题.cpp">
+      <Filter>源文件\算法作业分治</Filter>
+    </ClCompile>
+    <ClCompile Include="逃亡.cpp">
+      <Filter>源文件\算法作业分治</Filter>
+    </ClCompile>
+    <ClCompile Include="珍珠BEAD.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="藏宝图.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="联络员.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="拓扑排序.cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="烦人的幻灯片(slides).cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="病毒(virus).cpp">
+      <Filter>源文件\算法作业图论</Filter>
+    </ClCompile>
+    <ClCompile Include="数字金字塔.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="最长下降子序列.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="0-1背包.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="完全背包.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="庆功会.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="t投资问题.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="最长公共子序列.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="方程f(x)的根.cpp">
+      <Filter>源文件\算法作业分治</Filter>
+    </ClCompile>
+    <ClCompile Include="黑白棋子的移动(分治).cpp">
+      <Filter>源文件\算法作业分治</Filter>
+    </ClCompile>
+    <ClCompile Include="数列分段.cpp">
+      <Filter>源文件\算法作业分治</Filter>
+    </ClCompile>
+    <ClCompile Include="最大连续子序列和.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="【排序】第K小整数.cpp">
+      <Filter>源文件\算法作业分治</Filter>
+    </ClCompile>
+    <ClCompile Include="最接近点对问题.cpp">
+      <Filter>源文件\算法作业分治</Filter>
+    </ClCompile>
+    <ClCompile Include="L3-3平面最近点对.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="第k小的数（2）.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="第k小的数（3）.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="矩阵乘法分治.cpp">
+      <Filter>源文件\算法作业分治</Filter>
+    </ClCompile>
+    <ClCompile Include="第k小整数.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="文字排版.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="城市交通路网.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划实现最优二叉查找树.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="拦截导弹.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="友好城市.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="源挖地雷.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="质数和分解.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="潜水员.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="分组背包.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="货币系统.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="混合背包.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="钓鱼.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="最长不下降子序列.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="贝克汉姆.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="尽量多拿.cpp">
+      <Filter>源文件\算法作业动态规划</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
